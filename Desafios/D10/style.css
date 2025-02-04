@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: pag;
+    src: url("fontes/idroid.otf") format(opentype);
+}
+
+body{
+    margin: 0px;
+    background-color: #84E1AD;
+    display: block;
+
+}
+
+header{
+    background-image: linear-gradient(to top, #124629, #53d48d);
+    padding: 10px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+#titcabeca{
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    font-weight: normal;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#cabeca{
+    text-align: center;
+    color: white
+
+}
+nav > a{
+    color: rgba(255, 255, 255, 0.705);
+    text-decoration: none;
+    margin: 6px;
+    font-weight: bold;
+}
+nav > a:hover{
+    background-color: #278852;
+    padding: 10px;
+}
+main{
+    background-color: white;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+    border-radius: 0px 0px 10px 10px;
+}
+h1{
+    font-family: pag;
+    color:#1f7445;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+span{
+    color:#1f7445;
+    font-weight: bold;
+}
+h2{
+    font-family: pag;
+    color:#1f7445;
+    background-image: linear-gradient(to right, #84E1AD, white);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+p{
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#link{
+    color:#1f7445;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #84E1AD, white);
+    padding: 3px;
+    text-decoration: none;
+}
+#link:hover{
+    text-decoration: underline;
+}
+main picture > img{
+    width: 100%;
+}
+.pp{
+    text-align: center;
+}
+aside{
+    background-color: #124629;
+    text-align: center;
+    padding: 20px;
+}
+iframe{
+    width: 100%;
+}
+h3{
+    background-color: #124629;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+article{
+    color: white;
+    background-color: #219655;
+    border-radius: 10px;
+}
+div.flutua{
+    color: white;
+    display: inline-block;
+    width: 470px;
+}
+#lo{
+    color: #124629;
+}
+footer{
+    background-color: #124629;
+    margin: 50px 0px 0px 0px;
+    padding: 3px;
+}
+footer > p{
+    color: white;
+    text-align: center;
+    margin: 0px;
+
+}
