@@ -7,23 +7,26 @@
     <style>
         body{
             margin: 0px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
         }
         .espaco{
-            width: 100%;
+            position: relative;
+            height: 100vh;
+            background: url(imagens/espaco.jpg) no-repeat center/cover fixed;
+            
         }
         .aa{
-            display: flex;
             position: absolute;
-            justify-content: center;
-            align-items: center;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
         }
     </style>
 </head>
 <body>
-    <img class="espaco" src="imagens/espaco.jpg" alt="espaço">
-    <img class="aa" src="imagens/astronauta.png" alt="">
+    <section class="espaco">
+        <article class="aa">
+            <img src="imagens/astronauta.png" alt="">
+        </article>
+    </section>
 </body>
 </html>
