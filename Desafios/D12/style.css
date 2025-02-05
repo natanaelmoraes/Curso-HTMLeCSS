@@ -44,7 +44,6 @@ header > p{
 header > p:hover{
     text-decoration: underline;
 }
-
 .branco{
     background-color: white;
     font-family: var(--fonte-texto);
