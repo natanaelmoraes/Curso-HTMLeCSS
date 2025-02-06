@@ -26,7 +26,7 @@ header > h1{
     padding-top: 50px;
     font-family: var(--fonte-destaque);
     font-variant: small-caps;
-    font-size:136px;
+    font-size:10vw;
 }
 header > h1:hover{
     text-decoration: underline;
@@ -48,13 +48,14 @@ header > p:hover{
 section{
     background-color: white;
     font-family: var(--fonte-texto);
-    font-size: 47px;
+    font-size: 4.5vw;
     line-height: 2em;
     padding: 10vh 0px 10vh 30px;
     box-shadow: 2px -2px 6px 1px rgba(0, 0, 0, 0.411);
 }
 .imagem{
     color: white;
+    text-shadow: 1px 2px 0px black;
 }
 #joana{
     background: url(imagens/background001.jpg) fixed center/cover;
@@ -65,7 +66,6 @@ section{
 #sombra{
     background-color: rgba(0, 0, 0, 0.575);
     display: inline-block;
-    unicode-bidi: isolate;
 }
 footer{
     background-color: black;
